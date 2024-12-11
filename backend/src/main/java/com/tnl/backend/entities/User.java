@@ -57,7 +57,4 @@ public class User {
     @EqualsAndHashCode.Exclude
     private Set<Attendance> attendance = new HashSet<>();
 
-  
-
-
 }

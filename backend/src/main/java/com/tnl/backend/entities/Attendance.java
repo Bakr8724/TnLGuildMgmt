@@ -17,7 +17,7 @@ public class Attendance {
     @GeneratedValue
     private Long id;
 
-    private String status;
+    private Boolean status;
 
     private Timestamp recorded;
 

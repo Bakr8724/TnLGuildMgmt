@@ -17,9 +17,9 @@ public class gearBuild {
     @GeneratedValue
     private Long id;
 
-    private String gear_img_url;
+    private byte[] gear_img_url;
 
-    private String skill_img_url;
+    private byte[] skill_img_url;
 
     private String gear_url;
 

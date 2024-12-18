@@ -23,6 +23,7 @@ public class Seeder implements CommandLineRunner {
        user1.setActivityStanding("Green");
 
        userRepository.saveAllAndFlush(Arrays.asList(user1));
+
     }
     
 }

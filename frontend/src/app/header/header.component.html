@@ -1,6 +1,16 @@
 <nav class="navbar">
+
     <div class="navbar-left">
-        <a class="navbar-brand">Brand</a>
+        <div class="dropdown">
+        <a class="navbar-game">Game</a>
+        <div class="dropdown-content">
+            <a href="#">Game 1</a>
+            <a href="#">Game 2</a>
+            <a href="#">Game 3</a>
+        </div>
+        </div>
+
+
         <div class="top-banner">
         <span *ngIf="isAdmin; else workerBanner">ACTING AS ADMIN</span>
         <ng-template #workerBanner>
@@ -17,7 +27,7 @@
             <a class="nav-link" routerLink="/profile" routerLinkActive="active">Profile</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" routerLink="/teams" routerLinkActive="active">SignUps</a>
+            <a class="nav-link" routerLink="/signups" routerLinkActive="active">SignUps</a>
         </li>
 
         <li class="nav-item">
